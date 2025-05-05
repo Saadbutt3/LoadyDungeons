@@ -14,7 +14,6 @@ public class Loading : MonoBehaviour
     private GameObject m_PlayButton, m_LoadingText;
 
     private string language;
-
     void OnEnable()
     {
         m_SceneHandle = Addressables.DownloadDependenciesAsync("Level_0" + GameManager.s_CurrentLevel);
